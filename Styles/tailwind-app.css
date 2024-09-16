@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.force-light {
+    @apply border-amber-300 border-2;
+}
+
+.dark .force-light {
+    border-color: #f59e0b !important; /* Tailwind amber-300 color */
+}
